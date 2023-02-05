@@ -1,10 +1,11 @@
-﻿int[] arr = {1, 5, 3, 5, 1, 7, 5, 34, 2, 56};
+﻿int[] arr = {1, 5, 3, 7, 1, 7, 5, 8, 2};
 void PrintArray(int[] array)
 {
     int count = array.Length;
     for(int i = 0; i < count; i++)
     {
-        Console.WriteLine($"{array[i]}");
+        Console.Write($"{array[i]}");
+        Console.Write(' ');
     }
     Console.WriteLine();
 }
@@ -27,3 +28,5 @@ void SelectionSort(int[] array)
 }
 PrintArray(arr);
 SelectionSort(arr);
+
+PrintArray(arr);
